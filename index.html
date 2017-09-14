@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>My Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+div.dotted {border-style: solid;
+            background-color:#B6E9F1;
+          }
+div.thin {border-style: thin;
+            background-color:black;
+          }
+hr {
+  border-width: 3px;
+
+}
+.mySlides {display:none;}
+</style>
+
+<body style="background-color:#D5D3D3;">
+  <div class="thin" align="center" class="w3-content w3-section" style="max-width:100000px">
+    <div class="tooltip"><span class="tooltiptext">That's Me!</span><img class="mySlides" src="img.jpg" style="height:300px;"></div>
+    <img class="mySlides" src="coding.jpg" style="width: 1496px; height:350px;">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 4000);
+  }
+  </script>
+
+
+  <div class="dotted" align="center"><p><b>Noman Haider<br>8704 Walton Blvd Canton, MI</br><a href="mailto:noman.haider97@gmail.com">noman.haider97@gmail.com</a></br><a href="mailto:fx1004@wayne.edu">fx1004@wayne.edu</a></br><a href="tel:734-589-9988">734-589-9988</a></br></p></div></b>
+  <br></br>
+  <b><marquee behavior="scroll" direction="right"><ol><u><i><h1>My Skills</i></u></h1><li>C++/C</li><li>Java</li><li>Matlab</li><li>OpenGL</li><li>GUI Development</li><li>UI/UX Design</li><li>Web Development</li><li>Graphic Design</li><li>Troubleshooting</li><li>Unix/OS X Command Line</li></ol></marquee>
+  </b>
+  <center><h1 style="color:blue"><i>Welcome</i></h1></center>
+  <hr color="#030000">
+  <p style="font-family:Times New Roman;"><font size="5">Hello Everyone! My name is Noman Haider and I am a computer science student at Wayne State University. I have great knowledge of Website, GUI development. Moreover, I have great knowledge of diffrent kinds of programming languages like C++, MATLAB, and Java. I am looking for intern and co-op position in my field of study</p>
+  </font>
+  <br></br>
+  <h2><font size="5"><i>My Resume</i></h2></font>
+  <hr color="#030000">
+  <ul>
+    <div class="toolTip"><span class="tooltiptext">Click to view!</span><li><a href="Noman_Haider_Resume v2.pdf">My Resume</li></a></div>
+  </ul>
+  <br></br>
+  <h3 style="color:blue"><font size="5"><i>My Cover Letter</i></h3></font>
+  <hr color="#030000">
+  <ul>
+    <div class="toolTip"><span class="tooltiptext">Click to view!</span><li><a href="Noman_Haider_Cover Letter.pdf">My Cover Letter</li></a></div>
+  </ul>
+  <br></br>
+  <h4><font size="5"><i>Scholarship and Awards</i></h4></font>
+  <hr color="#030000">
+  <ul style="list-style-type:square">
+    <li>WSU Promise Grant-2 Year</li>
+    <li>Robert T. Marshall Scholarship</li>
+  </ul>
+  <br></br>
+  <h5 style="color:blue"><font size="5"><i>Certifications</i></h5></font>
+  <hr color="#030000">
+  <ul style="list-style-type:square">
+    <div class="toolTip"><span class="tooltiptext">Click to view!</span><li><a href="NetworkTroubleshooting.pdf">Network Troubleshooting</li></a></div><br></br>
+    <div class="toolTip"><span class="tooltiptext">Click to view!</span><li><a href="Computer Networking.pdf">Computer Networking</li></a></div>
+  </ul>
+  <br></br>
+  <h6><font size="5"><i>Transcripts</i></h6></font>
+  <hr color="#030000">
+  <ul>
+    <div class="toolTip"><span class="tooltiptext">Click to view!</span><li><a href="Transcripts.pdf">Transcripts</li></a></div>
+  </ul>
+  <div class="ToolTip"><span class="tooltiptext">Lets go to the Top!</span><p><a href="#top"><span style="font-size: small">To top</span></a></p></div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<center><div class="thin"><font color="white"><font size="5"><i>Social Media</i></h7></font>
+<br></br>
+<a href="https://www.facebook.com/noman.haider.908">
+  <div class="tooltip"><span class="tooltiptext">Facebook</span><img src="facebook.jpg" alt="facebook" style="width:40px;height:40px;border:0;">
+</a>
+</div>
+
+<a href="https://app.joinhandshake.com/users/3557894">
+  <div class="ToolTip"><span class="tooltiptext">Handshake</span><img src="handshake.jpg" alt="facebook" style="width:40px;height:40px;border:0;">
+</div>
+</a>
+
+<a href="https://www.linkedin.com/in/noman-haider-39920b13b/">
+  <div class="toolTip"><span class="tooltiptext">Linkedln</span><img src="linkedln.jpg" alt="facebook" style="width:40px;height:40px;border:0;"></div>
+</a>
+</center>
+
+
+</body>
+</html>
